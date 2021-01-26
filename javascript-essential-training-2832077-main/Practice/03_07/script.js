@@ -8,3 +8,18 @@
  * - Do the same as above - find an element, make a change to it, call the function, make sure it works.
  * - Finally, create an arrow function, make it do something, and call it.
  */
+
+ /*
+const enchiladas = {
+    name: "Enchiladas Verdes",
+    type: "Mexican food",
+    salsaType: "verde",
+    tortillaChips: true,
+    cookTime: "20 minutes",
+    isVegetarian: false,
+    bestFood: function(){
+        console.log("this is the best dish ive ever had");
+    }
+    
+ }
+ */

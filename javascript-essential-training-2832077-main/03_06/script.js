@@ -21,4 +21,10 @@ const backpack = {
   },
 };
 
-console.log("The backpack object:", backpack);
+//dot notation
+console.log("The backpack object: ", backpack);
+console.log("The pocketNum value: ", backpack.pocketNum);
+console.log("the backpack color is: ", backpack.color);
+
+//backet notation
+console.log("the volume is: ", backpack["volume"]);
