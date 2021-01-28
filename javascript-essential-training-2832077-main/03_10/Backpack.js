@@ -38,3 +38,5 @@ class Backpack {
 }
 
 export default Backpack;
+
+new Backpack(console.log)

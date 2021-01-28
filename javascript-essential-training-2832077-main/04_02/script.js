@@ -6,9 +6,9 @@
 import Backpack from "./Backpack.js";
 
 const everydayPack = new Backpack(
-  "Everyday Pack",
+  "Guzman Pack",
   30,
-  "grey",
+  "Green",
   15,
   26,
   26,

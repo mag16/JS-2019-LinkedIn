@@ -72,10 +72,10 @@ const navContent = `
       <li><a href="#">Contact</a></li>
 `;
 
-const mainNav = document.createElement("nav")
+const mainNav = document.createElement("nav");
 mainNav.classList.add("main-navigation");
-const navList = document.createElement("ul")
-navList.innerHTML = navContent
-mainNav.append(navList)
+const navList = document.createElement("ul");
+navList.innerHTML = navContent;
+mainNav.append(navList);
 
-document.querySelector(".siteheader").append(mainNav)
+document.querySelector(".siteheader").append(mainNav);
