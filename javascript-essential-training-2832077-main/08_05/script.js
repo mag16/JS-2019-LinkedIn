@@ -22,4 +22,4 @@ const greenPack = {
   },
 };
 
-console.log(greenPack.newVolume(5));
+console.log(greenPack.newVolume(145));

@@ -9,10 +9,24 @@ const article = document.querySelector("article");
 let stuffList = document.createElement("ul");
 
 // forEach() array method
-stuff.forEach((item) => {
+// stuff.forEach((item) => {
+//   let listItem = document.createElement("li");
+//   listItem.innerHTML = item;
+//   stuffList.append(listItem);
+// });
+
+// Map array method
+const mapStuffArray = stuff.map((item) => {
   let listItem = document.createElement("li");
   listItem.innerHTML = item;
-  stuffList.append(listItem);
+  return listItem;
 });
+
+mapStuffArray.forEach((item) => {
+  stuffList.append(item);
+})
+
+console.log("stuff: ", stuff);
+console.log("mapStuffArray: ", mapStuffArray);
 
 article.append(stuffList)

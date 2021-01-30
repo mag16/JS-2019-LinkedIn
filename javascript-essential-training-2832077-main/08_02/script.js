@@ -4,8 +4,8 @@
  */
 
 // Function declaration:
-function doSomeMath(a, b) {
-  let c = a + b;
+function doSomeMath(a, b, z) {
+  let c = a + b - z;
   return c;
 }
 
@@ -15,7 +15,7 @@ const doMoreMath = function (a = 3, b = 2) {
   return c;
 };
 
-console.log("Do some math:", doSomeMath(5, 6));
+console.log("Do some math:", doSomeMath(5, 6, 5));
 console.log("Do more math:", doMoreMath(5, 6));
 
 // Immediately Invoked Function Expression (IIFE)
